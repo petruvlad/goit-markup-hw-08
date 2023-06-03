@@ -1,0 +1,68 @@
+.header {
+  background-color: var(--backgound-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 42px;
+  height: 80px;
+}
+.header__nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__nav li {
+  position: relative;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-left: 40px;
+}
+
+.header__nav a {
+  color: var(--link-color);
+  cursor: pointer;
+}
+
+.header__nav a:active,
+.header__nav a:hover {
+  color: var(--text-color);
+  transition: var(--transition);
+}
+.header__nav a:focus {
+  color: var(--transition);
+}
+
+.header__nav a:active,
+.header__nav a:hover::after {
+  transition: var(--transition);
+  width: 42px;
+}
+
+.header .header__logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  height: 31px;
+  width: 145px;
+
+  border-radius: nullpx;
+}
+.header .header__logo span {
+  color: var(--text-color);
+}
+
+.header__email svg,
+.header__telephone svg {
+  width: 20px;
+  height: 20px;
+  flex-direction: row;
+}
+
+.nav-class .portofolio {
+  color: var(--link-color);
+}

@@ -1,0 +1,22 @@
+.section-customer h2 {
+  text-align: center;
+}
+
+.section-customer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1170px;
+  height: 184px;
+  background-color: var(--backgound-color);
+  list-style: none;
+  gap: 10px;
+}
+.section-customer .customer {
+  border: 1px solid #afb1b8;
+}
+
+.customer svg {
+  width: 170px;
+  height: 92px;
+}

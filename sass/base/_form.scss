@@ -1,0 +1,160 @@
+/* Form */
+.form__group {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.form__group + .form__group {
+  margin-top: 10px;
+}
+
+/* Label Text */
+.form__group > *:nth-child(1) {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  letter-spacing: 0.01em;
+  color: var(--p-color);
+}
+
+/* Input */
+.form__group > *:nth-child(2) {
+  padding: 12px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+label h2 {
+  color: var(--icon-background-color);
+}
+
+.form__checkbox {
+  flex-direction: row;
+  gap: 8px;
+}
+
+.form__checkbox > *:nth-child(2) {
+  padding: 0;
+  border: none;
+}
+
+.textarea {
+  resize: none;
+}
+
+.form__controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 10px 80 px;
+}
+
+.form .form__input__icon {
+  margin-left: 12px;
+  top: 50%;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+}
+
+.form {
+  margin-left: 40px;
+}
+
+.form__input__icon:focus,
+.form__input__icon:hover {
+  background: var(--text-color);
+  transition: var(--transition);
+  cursor: pointer;
+}
+/*Overlay*/
+
+.box {
+  position: relative;
+  display: block;
+}
+.image {
+  width: 270px;
+  height: 240px;
+}
+.overlay {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  background: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+  transition: var(--transition);
+}
+.container:hover .overlay {
+  opacity: 1;
+  height: 100%;
+  cursor: pointer;
+}
+
+.overlay p {
+  width: 100%;
+  margin-top: 10%;
+  color: var(--backgound-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* footer form */
+.label__footer {
+  padding: 40px;
+}
+.label__footer .input__footer {
+  width: 358px;
+  height: 50px;
+  left: 815px;
+  top: 2787px;
+
+  background: #2f303a;
+}
+.label__footer {
+  padding: 40px;
+}
+
+.icon__label__footer {
+  margin-left: 25px;
+  width: 20px;
+  height: 20px;
+  background-color: #2f303a;
+}
+.btn__footer {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--backgound-color);
+  letter-spacing: 0.06em;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+
+  background: var(--text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.input__footer {
+  width: 358px;
+  height: 50px;
+  left: 815px;
+  top: 2787px;
+
+  background: #2f303a;
+}
+.label__footer {
+  padding: 40px;
+}

@@ -1,0 +1,27 @@
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+
+  transition: transform var(--transition);
+}
+
+.modal-content {
+  padding: 16px;
+  background: var(--backgound-color);
+  width: 582px;
+  margin: 0 auto;
+  height: 581px;
+  position: relative;
+}
+
+.is-hidden {
+  display: flex;
+  visibility: hidden;
+}
