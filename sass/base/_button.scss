@@ -91,3 +91,27 @@ button {
 .form__btn:focus {
   background: #1a78c5;
 }
+
+.button--toggle-menu {
+  position: absolute;
+  right: 30px;
+  padding: 0;
+  width: 24px;
+  align-items: center;
+}
+
+.button--close-menu {
+  align-self: flex-end;
+  display: none;
+  color: #303030;
+  padding: 0;
+  width: 24px;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 480px) {
+  .button--transparent {
+    margin-left: 40px;
+  }
+}

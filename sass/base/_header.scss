@@ -1,15 +1,25 @@
 .header {
   background-color: var(--backgound-color);
   display: flex;
-
+  justify-content: space-between;
   align-items: center;
   padding: 32px 42px;
   height: 80px;
 }
-header__nav {
+.header__nav ul {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-around;
+}
+
+.header__nav li {
+  position: relative;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-left: 40px;
 }
 
 .header__nav a {
@@ -56,5 +66,3 @@ header__nav {
 .nav-class .portofolio {
   color: var(--link-color);
 }
-
-/*Mobile*/
